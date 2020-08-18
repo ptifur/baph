@@ -1,13 +1,5 @@
 # next
 
-li vs a link  // check the flex practice
+li vs a link
 
-add images  // unsplash random image link
-
-
-
-# EXTRA
-
-remove SLIDER
-
-sort files remove not needed versions
+unsplash random image

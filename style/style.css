@@ -132,7 +132,7 @@ a {
 .main-hero-image {
     width: calc(200px + 7vw);
     height: calc(200px + 7vw);
-    background: #2d323b url('../media/chaos-3.png');
+    background: #2d323b url('../media/clem-onojeghuo-H-82Nbe8m7o-unsplash.jpg');
     border-radius: 50%;
     background-size: cover;
     background-position: center;
@@ -188,8 +188,26 @@ a {
 .box-image {
     min-height: 160px;
     border-radius: 13px 13px 0 0;
-    /* background: url(); */
     background: #ebebeb;
+    /* background: url('../media/holger-link-lWT-UwkJjhc-unsplash.jpg'); */
+    background-size: cover;
+    background-position: center;
+}
+
+.box-image-2 {
+    min-height: 160px;
+    border-radius: 13px 13px 0 0;
+    background: #ebebeb;
+    background: url('../media/jon-tyson-IhnV68HufN4-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.box-image-3 {
+    min-height: 160px;
+    border-radius: 13px 13px 0 0;
+    background: #ebebeb;
+    background: url('../media/jason-blackeye-byqgHC0XFME-unsplash.jpg');
     background-size: cover;
     background-position: center;
 }
