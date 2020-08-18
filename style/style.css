@@ -72,6 +72,7 @@ html, body, h1, h2 {
 
 .slider-image {
     height: 35px;
+    transition: 150ms ease-in;
 }
 
 .slider-image:hover {
@@ -105,8 +106,6 @@ li a {
     text-decoration: none;
     color: #f7f3f3;
     font-weight: 400;
-    text-align: center;
-    align-items: center;
 }
 
 li a:hover {
@@ -185,11 +184,11 @@ li a:hover {
     top: 23px;
 }
 
-.box-image {
+.box-image-1 {
     min-height: 160px;
     border-radius: 13px 13px 0 0;
     background: #ebebeb;
-    /* background: url('../media/holger-link-lWT-UwkJjhc-unsplash.jpg'); */
+    background: url('https://source.unsplash.com/1600x900/?nature,water');
     background-size: cover;
     background-position: center;
 }
@@ -208,6 +207,24 @@ li a:hover {
     border-radius: 13px 13px 0 0;
     background: #ebebeb;
     background: url('../media/jason-blackeye-byqgHC0XFME-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.box-image-4 {
+    min-height: 160px;
+    border-radius: 13px 13px 0 0;
+    background: #ebebeb;
+    background: url('https://source.unsplash.com/1600x900/?dark');
+    background-size: cover;
+    background-position: center;
+}
+
+.box-image-5 {
+    min-height: 160px;
+    border-radius: 13px 13px 0 0;
+    background: #ebebeb;
+    background: url('https://source.unsplash.com/daily');
     background-size: cover;
     background-position: center;
 }
