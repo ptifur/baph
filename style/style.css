@@ -90,7 +90,7 @@ html, body, h1, h2 {
     flex-wrap: wrap;
 }
 
-li {
+/* li {
     display: flex;
     background: #2d323b;
     margin: 15px 5px;
@@ -101,23 +101,41 @@ li {
     text-align: center;
     align-items: center;
     letter-spacing: 2px;
-}
+} */
 
-li:hover {
+/* li:hover {
     background: #ff5b5b;
+} */
+
+li {
+    list-style: none;
+    margin: 15px 5px;
 }
 
-a {
+li a {
+    /* display: flex; */
+    background: #2d323b;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
     text-decoration: none;
     color: #f7f3f3;
     font-weight: 400;
+    text-align: center;
+    align-items: center;
+}
+
+li a:hover {
+    background: #ff5b5b;
 }
 
 .main-container {
     flex: auto;
 }
 
-.main-hero {
+.hero-container {
     width: 60vw;
     margin: auto;
     padding: 35px;
@@ -129,7 +147,7 @@ a {
     gap: 39px;
 }
 
-.main-hero-image {
+.hero-image {
     width: calc(200px + 7vw);
     height: calc(200px + 7vw);
     background: #2d323b url('../media/clem-onojeghuo-H-82Nbe8m7o-unsplash.jpg');
@@ -139,7 +157,7 @@ a {
     grid-column: 1;
 }
 
-.main-hero-text {
+.hero-text {
     color: #2d323b;
     font-size: 4.7em;
     grid-column: 2;
